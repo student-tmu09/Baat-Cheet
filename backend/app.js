@@ -14,7 +14,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://baat-cheet-frontend-1vk0.onrender.com",
     credentials: true
 }));
 
